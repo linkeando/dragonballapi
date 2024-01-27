@@ -38,4 +38,4 @@ Puedes usarlo en cualquier proyecto de python descargandolo mediante pip con el 
 
 Tambien puedes usarlo como contenedor en docker
 
-https://hub.docker.com/r/eduardonanguelu/dragon-ball-api
+https://hub.docker.com/r/tecnodaniel/dragon-ball-api
