@@ -17,7 +17,7 @@ class FlaskApp:
         load_dotenv()
         self.app = Flask(__name__)
         self._init_sessions()
-        # self.cache = self._cache_config()
+        self.cache = self._cache_config()
 
     def _init_sessions(self):
         self.app.static_folder = os.path.join(os.path.dirname(__file__), 'frontend', 'static')
